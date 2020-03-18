@@ -10,6 +10,8 @@
  */
 
 // Your code:
+const abs = numb => (numb >= 0) ? numb : -numb;
+
 
 //* Begin of tests
 const assert = require('assert');
