@@ -9,6 +9,8 @@
 
 // Your code:
 
+const capitalize = element => element[0].toUpperCase() + element.slice(1, element.lenght).toLowerCase();
+
 //* Begin of tests
 const assert = require('assert');
 

@@ -8,6 +8,34 @@
 
 // Your code:
 
+// Methode 1
+
+const sentence = element => {
+    let result = '';
+    for (let i = 0; i < element.length; i++) {
+        result += element[i] + (i === element.length - 1 ? '' : ' ');
+    }
+    return result;
+}
+
+/* Methode 2
+
+const sentence = element => {
+    let result = '';
+    for (let i = 0; i < element.length; i++) {
+        result += element[i] + ' ';
+    };
+
+    let result2 = '';
+    for (let i = 0; i < result.length - 1; i++) {
+        result2 += result[i];
+    }
+    return result2;
+}*/
+
+
+// Sinon à la place du ternaire de l'expression, on peut faire une if  de totue l'expression.
+
 //* Begin of tests
 const assert = require('assert');
 

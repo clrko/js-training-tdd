@@ -9,6 +9,14 @@
 
 // Your code:
 
+const repeat = (element1, element2) => {
+    let resultat = '';
+    for (let i = 0; i < element2; i++) {
+        resultat += element1;
+    }
+    return resultat
+}
+
 //* Begin of tests
 const assert = require('assert');
 
